@@ -1,0 +1,24 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4512
+
+Windows are always organised as follows:
+
+===================
+|                   |        S1        |
+|     Main     |==========
+|                   |        S2        |
+===================
+
+Mapped Keys:
+
+<C-H> Make the current buffer as the main window
+<C-L> Make current buffer displayed as full screen
+<C-C> Delete current buffer
+<C-D> Close all buffers except the current one
+<C-J> Move cursor to next buffer
+<C-K> Move cursor to previous buffer
+
+Priority Rules for Buffers
+
+Current > Main > Displayed > New opened > Others
+
+Issues: https://github.com/mitnk/thwins
